@@ -1,0 +1,2 @@
+# Belarusrezinotechnica
+Old project
