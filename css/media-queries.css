@@ -1,0 +1,292 @@
+@media only screen and (max-width: 1000px) {
+    #banner-text h1 {
+        font-size: 23px;
+        margin: 0;
+    }
+    #banner-text p {
+        font-size: 15px;
+        margin: 0;
+    }
+    .text {
+        padding: 60px;
+    }
+    .info h1 {
+        font-size: 25px;
+    }
+    .info p {
+        font-size: 15px;
+    }
+    .text .hr-main {
+        width: 175px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .o-pred1 {
+        display: block;
+        max-height: 100%;
+    }
+    .konkach {
+        display: block;
+        max-height: 100%;
+    }
+    .photo {
+        margin-bottom: -4px;
+    }
+    .sotrud {
+        display: block;
+        max-height: 100%;
+    }
+    .text {
+        padding: 60px;
+    }
+    .sub {
+        grid-template-columns: 1fr;
+        padding: 70px 40px 100px 40px;
+    }
+    #history {
+        height: 250px;
+        line-height: 250px;
+        grid-row-gap: 25px;
+    }
+    .text-prod {
+        padding: 70px 60px 60px 60px;
+    }
+    .image-prod {
+        grid-template-columns: 1fr 1fr;
+    }
+    .text-diler {
+        padding: 70px 60px 60px 60px;
+    }
+    .country-block {
+        grid-template-columns: 1fr 1fr;
+    }
+    .content {
+        display: block;
+    }
+    #content-item_1 {
+        padding: 0;
+    }
+    #content-item_2 {
+        padding: 50px 0;
+    }
+    #content-item_2 nav {
+        padding-left: 20px;
+    }
+    #logo {
+        margin-left: 25px;
+    }
+    #logo img {
+        width: 400px;
+    }
+    .navigation a {
+        margin-left: 40px;
+    }
+    .map-text {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contacts {
+        padding: 60px;
+    }
+    .contacts_grid {
+        grid-template-columns: 1.7fr 1fr;
+        grid-gap: 2em;
+    }
+    .oao {
+        grid-row: 1/2;
+        font-size: 17px;
+    }
+    .adres {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .rekviz {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .vrem_rab {
+        grid-row: 1/4;
+        grid-column: 2/3;
+    }
+    .tel {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .email {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+    .title-con {
+        font-size: 11px;
+    }
+    .text-size-con{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .contact-list {
+        grid-template-columns: 1fr 1fr;
+        padding: 35px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    .burger-menu__nav {
+        width: 320px;
+        padding: 30px;
+    }
+    .close-sms {
+        left: 270px;
+    }
+    .text {
+        padding: 30px;
+    }
+    .sub img{
+        display: none;
+
+    }
+    .sub {
+        grid-row-gap: 15px;
+        padding: 60px 20px;
+    }
+    #history {
+        height: 91px;
+        line-height: 91px;
+        font-size: 28px;
+    }
+    .text-prod {
+        padding: 60px 30px 30px;
+    }
+    .text-prod h1 {
+        font-size: 25px;
+    }
+    .text-prod p {
+        font-size: 15px;
+    }
+    .text-prod .hr-main {
+        width: 130px;
+    }
+    .image-prod {
+        grid-template-columns: 1fr;
+    }
+    .title-diler h1 {
+        font-size: 25px;
+    }
+    .title-diler .hr-main {
+        font-size: 60px;
+    }
+    .text-diler {
+        padding: 60px 30px 30px 30px;
+    }
+    .country-block {
+        grid-template-columns: 1fr;
+    }
+    #banner-text h1 {
+        font-size: 15px;
+    }
+    #banner-text p {
+        font-size: 14px;
+    }
+    #butt1-block {
+        transform: scale(0.9);
+    }
+    #logo {
+        display: none;
+    }
+    #logo_main {
+        display: contents;
+
+    }
+    #logo_main img {
+        width: 120px;
+        margin-left: 25px;
+    }
+    .accordion-adapt {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-accordion {
+        justify-self: center;
+    }
+    .title-item {
+        padding: 20px 0 10px 0;
+    }
+    .title-item h4 {
+        font-size: 20px;
+    }
+    .title-item p {
+        font-size: 17px;
+    }
+    .table {
+        transform: scale(0.7);
+        margin-left: -65px;
+    }
+    .map-text {
+        grid-template-columns: 1fr;
+        padding: 50px 20px 50px 20px;
+    }
+    .footer-bottom-text {
+        font-size: 6px;
+    }
+    .mobile-list .nav-link {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .close {
+        margin: 40px 40px 0 0;
+    }
+    .contacts {
+        padding: 30px;
+    }
+    .contacts_grid {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    }
+    .oao {
+    grid-row: 1/2;
+    font-size: 17px;
+}
+    .adres {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .rekviz {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+    .vrem_rab {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+    .tel {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .email {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .title-con {
+        font-size: 11px;
+    }
+    .text-size-con{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .contact-list {
+        grid-template-columns: 1fr;
+        padding: 30px 0;
+        grid-gap: 0;
+    }
+    .vrem {
+        padding-right: 60px;
+    }
+    .contact-item {
+        padding: 30px;
+    }
+    .podr {
+        padding: 30px;
+    }
+}
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="test, site, website" />
+    <meta name="description" content="Тестовый сайт" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../css/style-min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/media-queries.css" rel="stylesheet" type="text/css" />
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>О предприятии</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn btn-dark" onclick="topFunction()" id="myBtn" title="Go to top">Наверх</button>
+    <div class="mobile-hide mob-1">
+        <div class="menu-center">
+            <div class="close">+</div>
+            <div class="mobile-list">
+                <ul class="navbar-nav mr-auto mb-2">
+                    <li class="nav-item">
+                        <a href="../index.html#banner-link" class="link-light nav-link">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#o-pred-link" class="link-light nav-link">О ПРЕДПРИЯТИИ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#prod-link" class="link-light  nav-link">ПРОДУКЦИЯ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../index.html#diler-link" class="link-light nav-link">ДИЛЕРЫ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../contacts.html" class="link-light nav-link">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="banner">
+        <header id="header" class="navbar navbar-expand-xl navbar-dark nav-scroll_2" role="navigation">
+            <div class="header-content nav-scroll_1">
+                <a id="logo" class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt>
+                </a>
+                <a id="logo_main" class="navbar-brand" href="../index.html">
+                    <img src="../img/logo_main_05.png" alt>
+                </a>
+                <button id="adidas" class="mobile navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="navigation collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mr-auto mb-2">
+                        <li class="nav-item">
+                            <a href="../index.html#banner-link" class="nav-link">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../index.html#o-pred-link" class="nav-link">О ПРЕДПРИЯТИИ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../index.html#prod-link" class="nav-link">ПРОДУКЦИЯ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../index.html#diler-link" class="nav-link">ДИЛЕРЫ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../contacts.html" class="nav-link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <section class="content">
+        <div class="content-item _anim-items" id="content-item_1">
+            <div class="sticky">
+                <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white">
+                    <div class="slist-group list-group-flush border-bottom scrollarea">
+                        <a href="history.html" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+                            <div class="d-flex w-100 align-items-center justify-content-between">
+                                История предприятия
+                            </div>
+                        </a>
+                        <a href="news.html" class="list-group-item list-group-item-action py-3 lh-tight">
+                            <div class="d-flex w-100 align-items-center justify-content-between">
+                                Новости
+                            </div>
+                        </a>
+                        <a href="vacancies.html" class="list-group-item list-group-item-action py-3 lh-tight text-light active">
+                            <div class="d-flex w-100 align-items-center justify-content-between">
+                                <strong class="mb-1">Вакансии</strong>
+                            </div>
+                        </a>
+                        <a href="postavshik.html" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+                            <div class="d-flex w-100 align-items-center justify-content-between">
+                                Поставщику
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vacancies-item-main" id="content-item_2">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="_anim-items _anim-no-hide block_show">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Главная</a></li>
+                    <li class="breadcrumb-item"><a href="../index.html#o-pred-link">О предприятии</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Вакансии</li>
+                </ol>
+            </nav>>
+            <div class="nom-block">
+            <div class="vacancies-tel text-dark _anim-items _anim-no-hide block_show">
+                <p class="pp-1 lead">Для получения подробной информации звоните на номера:</p>
+                <p class="pp-2 lead text-size-con">+375 (225) 71-64-94</p>
+                <p class="pp-3 lead text-size-con">+375 (225) 71-70-84</p><br>
+            </div>
+            </div>
+            <div class="vac-main-block">
+            <div class="vac-block">
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Грузчик с удостоверением на автопогрузчик 4 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу грузчиком с удостоверением на автопогрузчик 4 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">650,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Вальцовщик резиновых смесей 4-6 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу вальцовщиком резиновых смесей 4-5 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Профильное</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">450,00 - 510,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Машинист резиносмесителя 6 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу машиниста резиносмесителя 6 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">585,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Прессовщик-вулканизаторщик 4 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу прессовщиком-вулканизаторщиком 4 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Профильное</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">400,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Рабочий зеленого строительства с допуском на мотокосу</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу рабочим зеленого строительства с допуском на мотокосу без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con"> -</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">От 400,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Токарь</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу токарем без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con"> -</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Фрезеровщик</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу фрезировщиком без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con"> -</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Слесарь-сантехник 5 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу слесарем-сантехником 5 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Профессионально-техническое</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Каландровщик резиновых смесей 3 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу грузчиком с удостоверением на автопогрузчик без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">550,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Обработчик резиновых изделий 1 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу обработчиком резиновых изделий 1 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Вулканизаторщик 4 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу вулканизаторщиком 4 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">600,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Машинист стрейнера 3 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу машинистом стрейнера 3 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            <div class="contact-item vacancies-item text-dark _anim-items _anim-no-hide block_show">
+                <div class="item-1nd">
+                    <p class="title-top">Шероховщик 4 разряда</p>
+                </div>
+                <div class="item-2nd">
+                    <p class="lead text-size-con">Приглашаем на работу шероховщика 4 разряда без вредных привычек.</p><br>
+                </div>
+                <div class="item-3nd">
+                    <p class="title-con text-secondary">Образование</p>
+                    <p class="lead text-size-con">Общее среднее</p>
+                </div>
+                <div class="item-4nd">
+                    <p class="title-con text-secondary">Заработная плата</p>
+                    <p class="lead text-size-con">375,00 руб.</p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="map-text">
+                <div class="map-menu">
+                    <div class="map-title-1">
+                        <h1>Меню</h1>
+                        <hr>
+                    </div>
+                    <div class="map-link-1">
+                        <ol>
+                            <li><a class="nav-link" href="../index.html">Главная</a></li>
+                            <li><a class="nav-link" href="../index.html#o-pred-link">О предприятии</a></li>
+                            <li><a class="nav-link" href="../index.html#prod-link">Продукция</a></li>
+                            <li><a class="nav-link" href="../index.html#diler-link">Дилеры</a></li>
+                            <li><a class="nav-link" href="../contacts.html">Контакты</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="map-o-pred">
+                    <div class="map-title-2">
+                        <h1>О предприятии</h1>
+                        <hr>
+                    </div>
+                    <div class="map-link-2">
+                        <ol>
+                            <li><a class="nav-link" href="history.html">История предприятия</a></li>
+                            <li><a class="nav-link" href="news.html">Новости</a></li>
+                            <li><a class="nav-link" href="vacancies.html">Вакансии</a></li>
+                            <li><a class="nav-link" href="postavshik.html">Поставщику</a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="map-prod">
+                    <div class="map-title-3">
+                        <h1>Продукция</h1>
+                        <hr>
+                    </div>
+                    <div class="map-link-3">
+                        <ol>
+                            <li><a class="nav-link" href="../catalog/rukava-i-shlangi.html">Рукава и шланги</a></li>
+                            <li><a class="nav-link" href="../catalog/form-rti.html">Формовые РТИ</a></li>
+                            <li><a class="nav-link" href="../catalog/lenta-konv.html">Лента конвейерная</a></li>
+                            <li><a class="nav-link" href="../catalog/teh-plastina.html">Пластина техническая</a></li>
+                            <li><a class="nav-link" href="../catalog/rezinovie-smesi.html">Резиновые смеси и клеи</a></li>
+                            <li><a class="nav-link" href="../catalog/remni-privod.html">Ремни приводные и зубчатые</a></li>
+                            <li><a class="nav-link" href="../catalog/shum.html">Детали шумопоглащающие</a></li>
+                            <li><a class="nav-link" href="../catalog/poliur.html">Изделия из полиуретана</a></li>
+                            <li><a class="nav-link" href="../catalog/rti-razlich.html">РТИ различного назначения</a></li>
+                            <li><a class="nav-link" href="../catalog/narodnie.html">Товары народного потребления</a></li>
+                            <li><a class="nav-link" href="../catalog/nerovnost.html">Искуственная неровность</a></li>
+                            <li><a class="nav-link" href="../catalog/zhd.html">Изделия для железной дороги и метрополитена</a></li>
+                            <li><a class="nav-link" href="../catalog/termoplast.html">Изделия из термопластичных эластомеров</a></li>
+                            <li><a class="nav-link" href="../catalog/neform-rti.html">Изделия неформовые резиновые технические</a></li>
+                            <li><a class="nav-link" href="../catalog/rezina-drobl.html">Резина дробленая</a></li>
+                            <li><a class="nav-link" href="../catalog/profil.html"></a>Профиля резиновые</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="map-contact">
+                    <div class="map-title-4">
+                        <h1>Контакты</h1>
+                        <hr>
+                    </div>
+                    <div class="contact-text">
+                        <p><b>Адрес:</b> ул. Минская 102, Бобруйск 213829</p>
+                        <pre><b>Часы работы:</b>
+будни            10:00–17:30
+выходные         Закрыто
+<b>Телефон:</b> 8 0225 71-61-74</pre>
+                    </div>
+                    <div class="contact-address">
+                        <a href="https://yandex.ru/maps/?um=constructor%3Abea837961feb9293040ce08c24d7864f77f4a97e7074441cb9525db00792c34d&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3Abea837961feb9293040ce08c24d7864f77f4a97e7074441cb9525db00792c34d&amp;width=255&amp;height=255&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-text">
+                <span class="p1">ОАО «Беларусьрезинотехника» © 2022 Все права защищены</span>
+                <span class="p2">Тел: +375 (225) 71-77-41 e-mail: info@aobrt.by</span>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
